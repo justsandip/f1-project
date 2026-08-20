@@ -1,0 +1,31 @@
+# Node / NestJS
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Flutter / Dart
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/build/
+flutter_app/*.iml
+flutter_app/ios/Flutter/.last_build_id
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
