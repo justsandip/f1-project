@@ -1,5 +1,5 @@
 import { Controller, Get, Param, ParseIntPipe } from '@nestjs/common';
-import { ReplayResponse, ReplayService } from './replay.service';
+import { ReplayResponse, ReplayService } from '@/app/replay/replay.service';
 
 @Controller('replay')
 export class ReplayController {

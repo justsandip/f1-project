@@ -2,7 +2,7 @@ import { describe, expect, it } from '@jest/globals';
 import { Lap } from '@/app/laps/entities/lap.entity';
 import { CarDataSample } from '@/app/telemetry/entities/car-data-sample.entity';
 import { LocationSample } from '@/app/telemetry/entities/location-sample.entity';
-import { mergeTelemetry } from './replay-merge';
+import { mergeTelemetry } from '@/app/replay/replay-merge';
 
 const lapStartMs = Date.parse('2024-07-07T15:09:13.478Z');
 

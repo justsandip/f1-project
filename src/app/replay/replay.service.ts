@@ -1,6 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { OpenF1Client } from '@/app/ingestion/openf1-client.service';
-import { mergeTelemetry, ReplaySample } from './replay-merge';
+import { mergeTelemetry, ReplaySample } from '@/app/replay/replay-merge';
 
 export interface ReplayResponse {
   sessionKey: number;

@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { ReplayModule } from '@/app/replay/replay.module';
-import { validate } from './config/env.validation';
+import { validate } from '@/config/env.validation';
 
 @Module({
   imports: [
