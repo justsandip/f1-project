@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
+import { ReplayModule } from '@/app/replay/replay.module';
 import { validate } from './config/env.validation';
 
 @Module({
@@ -8,6 +9,7 @@ import { validate } from './config/env.validation';
       isGlobal: true,
       validate,
     }),
+    ReplayModule,
   ],
   controllers: [],
   providers: [],
